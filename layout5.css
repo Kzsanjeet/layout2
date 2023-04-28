@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightblue;
+    text-align: center;
+    font-family: cochin;
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: 100%;
+
+}
+.item1{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 2rem;
+    font-size: 18px;
+}
+
+.item1 h1{
+    text-align: start;
+    color: cadetblue;
+    letter-spacing: 3px;
+
+}
+
+.item1 p{
+    text-align: start;
+    color:#222;
+}
+.item2{
+    height: 450px;
+}
+img{
+    height: 450px;
+    width: 100%;
+    padding: 20px 30px;
+}
